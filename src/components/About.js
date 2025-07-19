@@ -67,8 +67,8 @@ const About = () => {
             </EducationItem>
           </Education>
           <DownloadButton
-            href="/abhishek gupta.pdf"
-            download
+            href="/abhishek-gupta.pdf"
+            download="Abhishek Gupta Resume.pdf"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
