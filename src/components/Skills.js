@@ -21,7 +21,7 @@ const skillCategories = [
     skills: [
       { name: 'Java', icon: <FaJava /> },
       { name: 'Python', icon: <FaPython /> },
-      { name: 'C', icon: <FaCode /> },
+      // { name: 'C', icon: <FaCode /> },
       { name: 'JavaScript', icon: <FaCode /> },
       { name: 'HTML', icon: <FaCode /> },
       { name: 'CSS', icon: <FaCode /> },
@@ -54,7 +54,7 @@ const skillCategories = [
       { name: 'Flask', icon: <SiFlask /> },
       { name: 'Streamlit', icon: <SiStreamlit /> },
       { name: 'TensorFlow', icon: <SiTensorflow /> },
-      { name: 'Keras', icon: <SiTensorflow /> },
+      // { name: 'Keras', icon: <SiTensorflow /> },
       { name: 'OpenCV', icon: <SiOpencv /> },
       { name: 'Scikit-learn', icon: <SiScikitlearn /> },
       { name: 'NLTK', icon: <FaTextHeight /> },
@@ -70,8 +70,8 @@ const skillCategories = [
       { name: 'Postman', icon: <SiPostman /> },
       { name: 'Power BI', icon: <SiPowerbi /> },
       { name: 'Tableau', icon: <SiTableau /> },
-      { name: 'Ubuntu', icon: <SiUbuntu /> },
-      { name: 'Linux', icon: <SiLinux /> },
+      // { name: 'Ubuntu', icon: <SiUbuntu /> },
+      // { name: 'Linux', icon: <SiLinux /> },
       { name: 'VS Code', icon: <SiVisualstudiocode /> },
       { name: 'PyCharm', icon: <SiPycharm /> }
     ]

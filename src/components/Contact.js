@@ -254,7 +254,7 @@ const Contact = () => {
             </ContactIcon>
             <ContactText>
               <InfoTitle>Location</InfoTitle>
-              <InfoDescription>Your City, Country</InfoDescription>
+              <InfoDescription>Bangalore, India</InfoDescription>
             </ContactText>
           </ContactCard>
           <SocialLinks>

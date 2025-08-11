@@ -28,6 +28,35 @@ import {
 const projects = [
   {
     id: 1,
+    title: 'InnerCalm',
+    description: [
+      'Built a full-featured mental wellness platform offering therapy tools,', 
+      'self-help resources and live session scheduling for users and therapists.',
+      'Integrated an AI-based chatbot and voice assistant using NLP ',
+      'to deliver supportive, interactive conversations',
+    ],
+    image: '/images/innercalm.png',
+    techStack: ['React.js', 'Flask', 'Python', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript', 'NLP', 'Google Gemini API', 'Google Meet API'],
+    github: 'https://github.com/abhishek2004gupta/InnerCalm',
+    live: null
+  },
+  {
+    id: 2,
+    title: 'Sahayak AI',
+    description: [
+      'It is an intelligent virtual assistant platform that enables users to chat',
+      'generate AI images, and manage personalized interactions through a user-friendly interface.',
+      'It features an advanced conversational chatbot (TinyLlama LLM), a Stable Diffusion', 
+      'image generator, and secure user authentication with chat history powered by',
+      'PostgreSQL for personalized experiences',
+    ],
+    image: '/images/sahayakAi.png',
+    techStack: ['React.js', 'Flask', 'Python (PyTorch, PIL)', 'PostgreSQL', 'HTML', 'CSS', 'JavaScript','Gemini API', 'Stable Diffusion', 'TinyLlama LLM'],
+    github: 'https://github.com/abhishek2004gupta/Sahayak-AI.git',
+    live: null
+  },
+  {
+    id: 3,
     title: 'Food Lens',
     description: [
       'Designed an AI-powered system to assess the healthiness of food products based on ingredients and quantities',
@@ -36,36 +65,8 @@ const projects = [
       'Integrated web scraping and Gemini API to gather ingredient data dynamically'
     ],
     image: '/images/food-lens.png',
-    techStack: ['Python', 'TensorFlow', 'Keras', 'React', 'Clerk', 'Deep Learning', 'Web Scraping'],
+    techStack: ['React', 'Clerk', 'HTML', 'CSS', 'JavaScript', 'Python (TensorFlow, deep learning)', 'web scraping'],
     github: 'https://github.com/abhishek2004gupta/Food-Lens.git',
-    live: null
-  },
-  {
-    id: 2,
-    title: 'InnerCalm',
-    description: [
-      'Developed a full-fledged mental health support website with integrated tools and resources',
-      'Created an AI-powered chat and voice assistant bot for emotional support',
-      'Built a scalable, responsive frontend using React and robust backend with Flask',
-      'Applied Natural Language Processing (NLP) techniques to enhance conversational capabilities'
-    ],
-    image: '/images/innercalm.png',
-    techStack: ['React', 'Flask', 'Python', 'NLP', 'PostgreSQL', 'Gemini API'],
-    github: 'https://github.com/abhishek2004gupta/InnerCalm',
-    live: null
-  },
-  {
-    id: 3,
-    title: 'Gemini-Clone',
-    description: [
-      'Created a prompt-generation system mimicking Gemini assistant functionality',
-      'Integrated Google APIs for dynamic data fetching',
-      'Implemented a responsive user interface with modern design',
-      'Built a robust development environment using npm and modular JavaScript'
-    ],
-    image: '/images/gemini-clone.png',
-    techStack: ['JavaScript', 'React', 'Google API', 'npm'],
-    github: 'https://github.com/abhishek2004gupta/Gemini-Clone',
     live: null
   }
 ];

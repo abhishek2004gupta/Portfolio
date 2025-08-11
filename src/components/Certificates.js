@@ -20,16 +20,16 @@ const certificates = [
   {
     id: 1,
     title: 'Java DSA',
-    issuer: 'Coding Ninjas',
-    date: '2023',
+    issuer: 'Udemy',
+    date: '2024',
     icon: <FaCertificate />,
     pdf: '/certificates/java-dsa.pdf'
   },
   {
     id: 2,
     title: 'Full Stack Web Development',
-    issuer: 'Coding Ninjas',
-    date: '2023',
+    issuer: 'Udemy',
+    date: '2025',
     icon: <FaCertificate />,
     pdf: '/certificates/full-stack.pdf'
   }
